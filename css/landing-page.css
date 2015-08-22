@@ -24,34 +24,25 @@ h6 {
 a {
     color: #FFA500;
 }
-
 blockquote {
-    border-left: 10px solid #FFA500;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-    font-weight: 100;
-    font-size: 1.5em;
+  border-left: 10px solid #FFA500;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote:before {
-    color: #FFA500;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
+  color: #FFA500;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 blockquote p {
     display: inline;
-}
-
-blockquote::first-letter {
-    color: #FFA500;
-    font-size: 4em;
-}
-
+    }
 .topnav {
     font-size: 2rem;
     height: 3em;
@@ -222,3 +213,5 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
