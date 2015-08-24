@@ -11,38 +11,62 @@ html {
 }
 
 body,
-h1,
-h2,
-h3,
 h4,
 h5,
-h6 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h6,
+p {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
-a {
-    color: #FFA500;
+h1,
+h2,
+h3 {
+    font-family: 'Dosis', sans-serif;
 }
+
+h3 {
+    font-size: 3em;
+}
+
+a {
+    color: #565656;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+.sublink {
+    color: #FFA500;
+    margin-left: 2px;
+}
+
 blockquote {
-  border-left: 10px solid #FFA500;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+    border-left: 10px solid #FFA500;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-weight: 700;
 }
 
 blockquote:before {
-  color: #FFA500;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #FFA500;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
 
 blockquote p {
     display: inline;
-    }
+}
+
 .topnav {
     font-size: 2rem;
     height: 3em;
@@ -51,6 +75,10 @@ blockquote p {
 .lead {
     font-size: 18px;
     font-weight: 400;
+}
+
+.navbar-brand {
+    border-top: 4px solid #f8f8f8;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -162,7 +190,7 @@ blockquote p {
 
 .banner {
     padding: 100px 0;
-    color: #f8f8f8;
+    color: #fff !important;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -214,4 +242,41 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+.banner-social-buttons > h2 {
+    color: white;
+}
 
+.btn {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #FFA500;
+    color: white;
+    border: 1px solid #FFA500;
+}
+
+.modal-header {
+    background: #FFA500;
+    color: white;
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+}
+
+.close {
+    color: white;
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.close:hover {
+    color: white;
+    opacity: 0.8;
+}
+.modal-footer {
+        background-color: #f8f8f8;
+}
